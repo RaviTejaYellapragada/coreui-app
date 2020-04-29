@@ -55,11 +55,6 @@
     "lint:fix": "eslint --fix .",
     "format": "prettier --write \"**/*.+(js|jsx|json|yml|yaml|css|md|vue)\""
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "npm run lint && npm run format"
-    }
-  },
   "bugs": {
     "url": "https://github.com/coreui/coreui-free-react-admin-template/issues"
   },
